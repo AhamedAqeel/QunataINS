@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/QunataINS/static/css/main.dd381a2c.css",
+    "main.js": "/QunataINS/static/js/main.c7ea6d46.js",
+    "static/js/787.c1112931.chunk.js": "/QunataINS/static/js/787.c1112931.chunk.js",
+    "static/media/fleetmg.jpg": "/QunataINS/static/media/fleetmg.589ab65ff13ff1aeb603.jpg",
+    "static/media/OurExpertiseandspecialists.jpg": "/QunataINS/static/media/OurExpertiseandspecialists.d3357a8a05407ca6cd27.jpg",
+    "static/media/Solutionhero.jpg": "/QunataINS/static/media/Solutionhero.514b1794d5908ade9cb3.jpg",
+    "static/media/projectmg (2).jpg": "/QunataINS/static/media/projectmg (2).4a73b79f3e3fe09ef152.jpg",
+    "static/media/IOT.jpg": "/QunataINS/static/media/IOT.c8037f9d12f5f99a981c.jpg",
+    "static/media/engineeing.jpg": "/QunataINS/static/media/engineeing.eea0a6bc7587f20eb47b.jpg",
+    "static/media/assetmg.jpg": "/QunataINS/static/media/assetmg.6226531a6f68bc43ee61.jpg",
+    "static/media/engineering.jpg": "/QunataINS/static/media/engineering.70a0a70e5fcdc84ec920.jpg",
+    "static/media/abouthero.jpg": "/QunataINS/static/media/abouthero.256d8968854adef6d18d.jpg",
+    "static/media/projectmg.jpg": "/QunataINS/static/media/projectmg.e44e3a6ae75b0bbed68a.jpg",
+    "static/media/Contecthero.jpg": "/QunataINS/static/media/Contecthero.378ecc46f3a28b2c80f8.jpg",
+    "static/media/manpawer.jpg": "/QunataINS/static/media/manpawer.5be3380a2948cf7c8b3c.jpg",
+    "static/media/whatwedo.png": "/QunataINS/static/media/whatwedo.329843bc1b5067aa37d7.png",
+    "static/media/vision.png": "/QunataINS/static/media/vision.6374a121c0ea27b13a79.png",
+    "static/media/mission.png": "/QunataINS/static/media/mission.958406c16389d1588218.png",
+    "static/media/manpr.jpg": "/QunataINS/static/media/manpr.df06ae383aab0ce34dd8.jpg",
+    "static/media/Logo1.png": "/QunataINS/static/media/Logo1.eefb835628cba8ea83de.png",
+    "static/media/Serviceshero.jpg": "/QunataINS/static/media/Serviceshero.9d21c96ab7a27c56dd87.jpg",
+    "static/media/Homehero.jpg": "/QunataINS/static/media/Homehero.ad8fc990f85b3a065ff5.jpg",
+    "static/media/aboutuswhoweare.jpg": "/QunataINS/static/media/aboutuswhoweare.16ea88c46ee8fc7b6d5c.jpg",
+    "static/media/logo.jpg": "/QunataINS/static/media/logo.5b94c5f577fcc4a00c51.jpg",
+    "index.html": "/QunataINS/index.html",
+    "main.dd381a2c.css.map": "/QunataINS/static/css/main.dd381a2c.css.map",
+    "main.c7ea6d46.js.map": "/QunataINS/static/js/main.c7ea6d46.js.map",
+    "787.c1112931.chunk.js.map": "/QunataINS/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd381a2c.css",
+    "static/js/main.c7ea6d46.js"
+  ]
+}
