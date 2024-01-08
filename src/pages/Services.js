@@ -2,7 +2,7 @@ import { Box, Grid, Typography,  } from "@mui/material";
 import React from "react";
 import Hero from "../Componenst/Hero";
 import Heroservices from "../assest/Serviceshero.jpg";
-import image from "../assest/abouthero.jpg";
+
 import Servicespage from "../Componenst/servicespage";
 import image1 from "../assest/whatwedo.png";
 import image2 from "../assest/engineeing.jpg";
