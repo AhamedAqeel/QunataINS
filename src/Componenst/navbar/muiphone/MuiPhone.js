@@ -1,13 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
-import {
-  FormControl,
-  InputLabel,
-  InputAdornment,
-  Input,
-  Select,
-  MenuItem,
-} from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
+
+
 import {
   AsYouType,
   getCountryCallingCode,
@@ -15,31 +8,32 @@ import {
 } from "libphonenumber-js";
 
 import CountryCodeMenuItem from "./CountryCodeMenuItem";
+import { FormControl, Input, InputAdornment, InputLabel, MenuItem, Select,  menuItemClasses } from "@mui/material";
 
-const useLabelStyles = makeStyles({
-  root: {
-    transform: "translate(60%, 24px)",
-    "&.hasValue": {
-      transform: "translate(0, 2px) scale(0.75)",
-    },
-  },
-  focused: {
-    transform: "translate(0, 2px) scale(0.75)",
-  },
-});
+// const useLabelStyles = makeStyles({
+//   root: {
+//     transform: "translate(60%, 24px)",
+//     "&.hasValue": {
+//       transform: "translate(0, 2px) scale(0.75)",
+//     },
+//   },
+//   focused: {
+//     transform: "translate(0, 2px) scale(0.75)",
+//   },
+// });
 
-const useMenuItemStyles = makeStyles({
-  menuItem: {
-    "& .flag::after": {
-      content: "attr(data-country-code)",
-    },
-  },
-  selected: {
-    "& .flag::after": {
-      content: "''",
-    },
-  },
-});
+// const useMenuItemStyles = makeStyles({
+//   menuItem: {
+//     "& .flag::after": {
+//       content: "attr(data-country-code)",
+//     },
+//   },
+//   selected: {
+//     "& .flag::after": {
+//       content: "''",
+//     },
+//   },
+// });
 
 const asYouType = new AsYouType("US");
 
@@ -55,8 +49,8 @@ const MuiPhone = ({
   );
   const [cursor, setCursor] = useState(null);
   const phoneRef = useRef();
-  const labelClasses = useLabelStyles();
-  const menuItemClasses = useMenuItemStyles();
+  // const labelClasses = useLabelStyles();
+  // const menuItemClasses = useMenuItemStyles();
 
   const inputPhone = useCallback((phoneNumber) => {
     asYouType.reset();
@@ -156,7 +150,7 @@ const MuiPhone = ({
     };
 
     return (
-      <MenuItem value={k} key={k} className={menuItemClasses.menuItem}>
+      <MenuItem value={k} key={k} className={menuItemClasses.root}>
         <CountryCodeMenuItem {...countryData} />
       </MenuItem>
     );
@@ -167,7 +161,7 @@ const MuiPhone = ({
       <InputLabel
         htmlFor="phoneText"
         shrink={false}
-        classes={labelClasses}
+        // classes={labelClasses}
         className={value.trim() !== "" ? "hasValue" : ""}
       >
         {label}
