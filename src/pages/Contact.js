@@ -87,8 +87,8 @@ export default function ContactForm() {
                 }}
               >
                 <EmailIcon />
-                <Typography textAlign={"center"}>Email</Typography>
-                <Typography pl={2}> support@quantains.com</Typography>
+                <Typography >Email</Typography>
+                <Typography > support@quantains.com</Typography>
               </Box>
             </Grid>
             <Grid item xs={4}>
