@@ -20,12 +20,6 @@ function Services() {
           Pera=""
         />
       </Box>
-
-      <Solutioncon
-        cimg={image1}
-        conthead="Asset Management "
-        contbody="Quanta's Asset Management Solutions, where we redefine efficiency and optimization for your logistics-related assets. Our tailored approach is designed to comprehensively manage a diverse range of assets, including vehicles, machinery, and mobile cargo units. Quanta ensures seamless tracking, maintenance, and optimization of your vehicle fleet. Efficiently managing mobile cargo units with Quanta's advanced tracking and monitoring solutions. Real-time insights into cargo locations, conditions, and movement."
-      />
       <Solutioncon
         cimg={image2}
         conthead="Fleet Management"
@@ -40,6 +34,18 @@ function Services() {
         conthead="Internet Of Thinking  "
         contbody="We seamlessly integrate devices, sensors, and data analytics to create a connected ecosystem that enhances decision-making, efficiency, and productivity. Quanta's IoT-driven surveillance solutions offer intelligent, real-time monitoring for enhanced security. From AI-powered analytics to automated alerts, our surveillance systems are designed to keep your premises secure and provide actionable insights for proactive decision-making. Our systems provide safe, practical, and dependable access control by utilizing cutting-edge biometric technologies including iris scanning, facial recognition, and fingerprint recognition. Access management systems powered by the Internet of Things from Quanta completely change how you manage and keep an eye on facility access. "
       />
+      <Solutioncon
+        cimg={image1}
+        conthead="Asset Management "
+        contbody="Quanta's Asset Management Solutions, where we redefine efficiency and optimization for your logistics-related assets. Our tailored approach is designed to comprehensively manage a diverse range of assets, including vehicles, machinery, and mobile cargo units. Quanta ensures seamless tracking, maintenance, and optimization of your vehicle fleet. Efficiently managing mobile cargo units with Quanta's advanced tracking and monitoring solutions. Real-time insights into cargo locations, conditions, and movement."
+      />
+
+
+      {/* <Solutioncon
+        cimg={image1}
+        conthead="Asset Management "
+        contbody="Quanta's Asset Management Solutions, where we redefine efficiency and optimization for your logistics-related assets. Our tailored approach is designed to comprehensively manage a diverse range of assets, including vehicles, machinery, and mobile cargo units. Quanta ensures seamless tracking, maintenance, and optimization of your vehicle fleet. Efficiently managing mobile cargo units with Quanta's advanced tracking and monitoring solutions. Real-time insights into cargo locations, conditions, and movement."
+      /> */}
     </>
   );
 }
