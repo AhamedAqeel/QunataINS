@@ -58,38 +58,31 @@ export default function ContactForm() {
           <Grid container spacing={1}>
             {/* Add spacing here */}
             <Grid item xs={4}>
-              <Box>
-              <Box >
-              <LocalPhoneIcon />
-                </Box>
-              <Box
-                sx={{
-                  width: 300,
-                  height: 20,
-                  backgroundColor: "#84A9AC",
-                  boxShadow: "0 5px 6px 6px rgba(0, 0, 0, 0.1)",
-                  p: 15,
-                  marginTop: 10, // Add margin-top to create a gap
-                  flexDirection: 'column',  // Set flex direction to column
-                  alignItems: 'center',     // Center items horizontally
-                }}
-              >
-                
+              <Box sx={{
+                width: "100%",
+                height: '7rem',
+                backgroundColor: "#84A9AC",
+                boxShadow: "0 5px 6px 6px rgba(0, 0, 0, 0.1)",
+                p: "2rem",
+                marginTop: 10, // Add margin-top to create a gap
+                flexDirection: 'column',  // Set flex direction to column
+                alignItems: 'center',     // Center items horizontally
+              }}>
+
+                <LocalPhoneIcon />
                 <Typography >Mobile Number</Typography>
-                <Typography textAlign={"left"}>0757540585</Typography>
-              </Box>
-              
-              
+                <Typography >0757540585</Typography>
+
               </Box>
             </Grid>
             <Grid item xs={4}>
               <Box
                 sx={{
-                  width: 300,
-                  height: 50,
+                  width: "100%",
+                  height: '7rem',
                   backgroundColor: "#84A9AC",
                   boxShadow: "0 5px 6px 6px rgba(0, 0, 0, 0.1)",
-                  p: 15,
+                  p: "2rem",
                   marginTop: 10, // Add margin-top to create a gap
                 }}
               >
@@ -101,11 +94,11 @@ export default function ContactForm() {
             <Grid item xs={4}>
               <Box
                 sx={{
-                  width: 300,
-                  height: 30,
+                  width: "100%",
+                  height: '7rem',
                   backgroundColor: "#84A9AC",
                   boxShadow: "0 5px 6px 6px rgba(0, 0, 0, 0.1)",
-                  p: 15,
+                  p: "2rem",
                   marginTop: 10, // Add margin-top to create a gap
                 }}
               >
@@ -175,7 +168,7 @@ export default function ContactForm() {
                     countryOptions={countryOptions}
                     onChange={onPhoneChanged}
                   />
-                        
+
                 </Box>
                 {/* <TextField
                     fullWidth
