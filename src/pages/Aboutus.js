@@ -40,11 +40,11 @@ function Aboutus() {
                   alt="Hero"
                 />
               </Box>
-              <Box sx={{ width: "40%", height: "30rem", marginTop: "40px" ,  }}>
-                <Typography  sx={{ fontSize: "1.2rem", fontWeight: "bold",color: "Green" }}>
-                "Welcome to Quanta, where our story is one rooted in passion, expertise, and a collective vision for engineering excellence. Founded by a group of seasoned engineers with a combined industry experience of over 10 years, Quanta is driven by the belief that innovation and precision can transform challenges into opportunities. Drawing on years of hands-on experience, our team brings a wealth of knowledge to every project, ensuring that we not only meet but exceed the expectations of our clients.
-We know the complex dynamics of the industry because our company was formed by engineers, for engineers. Whether it is software, mechanical, electrical, or civil engineering, this profound understanding serves as the cornerstone of our dedication to offering the best engineering services possible.
-Join us on this journey as we continue to evolve, innovate, and shape the future of the industry. Welcome to Quanta – where experience meets enthusiasm, and every project is an opportunity to create something extraordinary."
+              <Box sx={{ width: "40%", height: "30rem", marginTop: "40px", }}>
+                <Typography sx={{ fontSize: "1.2rem", fontWeight: "bold", color: "Green" }}>
+                  "Welcome to Quanta, where our story is one rooted in passion, expertise, and a collective vision for engineering excellence. Founded by a group of seasoned engineers with a combined industry experience of over 10 years, Quanta is driven by the belief that innovation and precision can transform challenges into opportunities. Drawing on years of hands-on experience, our team brings a wealth of knowledge to every project, ensuring that we not only meet but exceed the expectations of our clients.
+                  We know the complex dynamics of the industry because our company was formed by engineers, for engineers. Whether it is software, mechanical, electrical, or civil engineering, this profound understanding serves as the cornerstone of our dedication to offering the best engineering services possible.
+                  Join us on this journey as we continue to evolve, innovate, and shape the future of the industry. Welcome to Quanta – where experience meets enthusiasm, and every project is an opportunity to create something extraordinary."
                 </Typography>
               </Box>
             </Box>
@@ -78,7 +78,7 @@ Join us on this journey as we continue to evolve, innovate, and shape the future
               <Box sx={{ p: 2, pt: 15, width: "40%", height: "30rem" }}>
                 <Typography
                   ml={"20px"}
-                  sx={{ fontSize: "1.5rem", fontStyle: "bold",color: "#333" }}
+                  sx={{ fontSize: "1.5rem", fontStyle: "bold", color: "#333" }}
                 >
                   " To become the most innovative and customer centric fleet
                   solution provider to build a sustainable future. So every
@@ -100,7 +100,7 @@ Join us on this journey as we continue to evolve, innovate, and shape the future
                 <Typography
                   mr={"10px"}
                   ml={"20px"}
-                  sx={{ fontSize: "1.5rem", fontStyle: "bold",color: "#333" }}
+                  sx={{ fontSize: "1.5rem", fontStyle: "bold", color: "#333" }}
                 >
                   Our Mission is to accelerate our customer base to 6 major
                   customers to serve a fleet upto 6000 units in Maintenance,

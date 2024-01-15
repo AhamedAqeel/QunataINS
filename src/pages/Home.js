@@ -134,22 +134,22 @@ function Home() {
 
         <Grid>
           <Servicescard
-          photo={simage1}
+            photo={simage1}
             direction="row"
             heading="Engineering Services"
-            Body="Quanta offers engineering services for fleet management, including installation, automation and industrial efficiency improvements…."
+            Body="We offers engineering services for fleet management, including installation, automation and industrial efficiency improvements…."
           />
           <Servicescard
-          photo={simage2}
+            photo={simage2}
             direction="row-reverse"
             heading="Project Management Services"
-            Body="Quanta Integration and Solutions may offer a range of project management services, including traditional project management and agile project management … "
+            Body="We may offer a range of project management services, including traditional project management and agile project management … "
           />
           <Servicescard
-          photo={simage3}
+            photo={simage3}
             direction="row"
             heading="Manpower staffing servicess"
-            Body="Quanta Integration and Solutions may offer a range of Manpower Supply Services to meet the staffing needs of their clients. These services can include the provision of both technical and general workers…"
+            Body="We may offer a range of Manpower Supply Services to meet the staffing needs of their clients. These services can include the provision of both technical and general workers…"
           />
           {/* <Servicescard
             direction="row-reverse"
