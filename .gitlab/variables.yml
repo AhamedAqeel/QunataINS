@@ -1,0 +1,3 @@
+variables:
+  QuantaFrontendStatic: $CI_REGISTRY/aqeelahamed987/quantains/fe:$CI_ENVIRONMENT_NAME
+  ProductionURL: www.quantains.com

@@ -1,0 +1,13 @@
+stages:
+  - build
+  - deploy
+  - release
+
+# sast:
+#   stage: test
+
+include:
+  - local: /.gitlab/variables.yml
+  - local: /.gitlab/build.yml
+  - local: /.gitlab/production.yml
+  - local: /.gitlab/release.yml
