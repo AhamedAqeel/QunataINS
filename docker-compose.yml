@@ -1,0 +1,22 @@
+version: '3.5'
+
+services:
+  quanta-frontend-static:
+    image: ${QuantaFrontendStatic}
+    container_name: quanta-frontend-static
+    restart: always
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=quanta
+      - traefik.http.routers.quanta-frontend-static.rule=Host(`www.quantains.com`)
+      - traefik.http.routers.quanta-frontend-static.entrypoints=websecure
+      - traefik.http.routers.quanta-frontend-static.entrypoints=web
+      - traefik.http.routers.quanta-frontend-static.tls.certresolver=myresolver
+      # - traefik.http.routers.quanta-frontend-static.middlewares=quanta-frontend-static-www-redirect
+      # - 'traefik.http.middlewares.quanta-frontend-static-www-redirect.redirectregex.regex=^https://www.quantains.com/(.*)'
+    networks:
+      - quanta
+
+networks:
+  quanta:
+    external: true
